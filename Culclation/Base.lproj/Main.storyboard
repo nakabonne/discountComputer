@@ -75,6 +75,9 @@
                                 <rect key="frame" x="103" y="484" width="119" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="割引%を入力する"/>
+                                <connections>
+                                    <segue destination="HOJ-oo-t4K" kind="modal" id="IQd-kn-9D9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UI9-8W-ggo">
                                 <rect key="frame" x="137" y="415" width="46" height="30"/>
@@ -202,6 +205,9 @@
                                 <rect key="frame" x="133" y="453" width="62" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="計算する"/>
+                                <connections>
+                                    <segue destination="rKf-1L-6uU" kind="modal" id="c6I-K9-FtE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -212,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="whe-5C-4VP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-27" y="216"/>
+            <point key="canvasLocation" x="43" y="205"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="Zub-8b-qK4">
@@ -253,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfW-Sw-Gkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="364" y="214"/>
+            <point key="canvasLocation" x="486" y="205"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
