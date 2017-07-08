@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		910B059D1F10A32400A71C1E /* PercentVIewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B059C1F10A32400A71C1E /* PercentVIewControllerViewController.swift */; };
+		910B059F1F10B02800A71C1E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B059E1F10B02800A71C1E /* ResultViewController.swift */; };
 		91845CCC1F108C8D003C4913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91845CCB1F108C8D003C4913 /* AppDelegate.swift */; };
 		91845CCE1F108C8D003C4913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91845CCD1F108C8D003C4913 /* ViewController.swift */; };
 		91845CD11F108C8D003C4913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91845CCF1F108C8D003C4913 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		910B059C1F10A32400A71C1E /* PercentVIewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentVIewControllerViewController.swift; sourceTree = "<group>"; };
+		910B059E1F10B02800A71C1E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		91845CC81F108C8D003C4913 /* Culclation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Culclation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91845CCB1F108C8D003C4913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91845CCD1F108C8D003C4913 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				91845CCD1F108C8D003C4913 /* ViewController.swift */,
 				91845CCF1F108C8D003C4913 /* Main.storyboard */,
 				910B059C1F10A32400A71C1E /* PercentVIewControllerViewController.swift */,
+				910B059E1F10B02800A71C1E /* ResultViewController.swift */,
 				91845CD21F108C8D003C4913 /* Assets.xcassets */,
 				91845CD41F108C8D003C4913 /* LaunchScreen.storyboard */,
 				91845CD71F108C8D003C4913 /* Info.plist */,
@@ -143,6 +146,7 @@
 				910B059D1F10A32400A71C1E /* PercentVIewControllerViewController.swift in Sources */,
 				91845CCE1F108C8D003C4913 /* ViewController.swift in Sources */,
 				91845CCC1F108C8D003C4913 /* AppDelegate.swift in Sources */,
+				910B059F1F10B02800A71C1E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
