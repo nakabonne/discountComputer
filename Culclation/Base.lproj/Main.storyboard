@@ -249,6 +249,9 @@
                                 <rect key="frame" x="106" y="142" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="他の計算をする"/>
+                                <connections>
+                                    <segue destination="Wzu-C3-eZt" kind="unwind" unwindAction="restart:" id="BhQ-M2-2Uz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -258,6 +261,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfW-Sw-Gkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Wzu-C3-eZt" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="486" y="205"/>
         </scene>

@@ -22,6 +22,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        // 次の画面オブジェクト
+        let viewController = segue.destination as! PercentVIewControllerViewController
+        
+        // 金額をintに変換
+        if let price = Int(priceField.text!){
+            viewController.price = price
+        }
+    }
 
     @IBAction func tab1Button(_ sender: Any) {
         let value = priceField.text! + "1"
@@ -33,6 +43,12 @@ class ViewController: UIViewController {
     @IBAction func tapClearButton(_ sender: Any) {
         priceField.text = "0"
     }
+    
+    // result画面から帰ってきたときの処理
+    @IBAction func restart(_ segue: UIStoryboardSegue){
+        priceField.text = "0"
+    }
+    
     
 
 }
